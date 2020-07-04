@@ -1,5 +1,7 @@
-The file i have submitted "finaldata.txt" contains the average of the Measurements of the tidy data set given below
-Description
+The file i have submitted "finaldata.txt" contains the average of the Measurements of the tidy data set given below.
+
+
+Description of the data set I have created 
 Data in dataset contains 180 rows and 68 columns for
 
 •mean(): Mean value
