@@ -2,7 +2,7 @@
 First created R project under git hub version control and linked it to R 
 Next I have downloaded the data files from the site and placed them under the project folder
 of the assingnment.
-Description of code variable name I have taken
+## Description of code variable name I have taken
 1.	"act_lbl" - Activity labels derived from activty text file    
 2.	"activitynm" - activity name after factorized with original y_mrg
 3.	"features"   - features data extracted from original file
@@ -28,3 +28,17 @@ Description of code variable name I have taken
 23.	"y_mrg"  - merged data of test and train datas of y    
 24.	"y_test"  - extracted from original text file  
 25.	"y_train"- extracted from original text file
+## Method description :
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Code description
+#reading data from the source by writing paths
+#merging data
+#reading labels and features from source
+#modifying the data with dplyr
+#selecting our mean and std variables from data
+#naming activities taken place and train set
+#finally calculating mean of each variable
