@@ -35,10 +35,10 @@ of the assingnment.
 4. Appropriately labels the data set with descriptive variable names.
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ## Code description
-#reading data from the source by writing paths
-#merging data
-#reading labels and features from source
-#modifying the data with dplyr
-#selecting our mean and std variables from data
-#naming activities taken place and train set
-#finally calculating mean of each variable
+1.#reading data from the source by writing paths
+2.#merging data
+3.#reading labels and features from source
+4.#modifying the data with dplyr
+5.#selecting our mean and std variables from data
+6.#naming activities taken place and train set
+7.#finally calculating mean of each variable
